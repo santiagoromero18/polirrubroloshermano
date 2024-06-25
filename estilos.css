@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: hwb(189 5% 11%);
+    color: #e99e08;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #04ebe7;
+    padding: 8px;
+}
+
+table img {
+    max-width: 100px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label, form input[type="text"], form input[type="email"], form input[type="submit"], form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #0face5;
+    color: #e0760c;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form textarea {
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
